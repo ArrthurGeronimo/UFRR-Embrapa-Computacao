@@ -1,0 +1,110 @@
+/*******************************
+		PÁGINA DE REGISTRO
+*******************************/
+.register-page{
+	background-color: var(--azulEscuro);
+}
+.login-box, .register-box {
+    margin: 20px auto;
+}
+.register-logo img{
+	width: 100%;
+	max-width: 360px;
+}
+.container-registro .box-registro{
+    background-color: var(--azulEscuro);
+}
+
+/* CONTAINER IMG */
+.container-registro{
+    padding-top: 20px;
+    background-color: var(--preto);
+}
+.container-registro .alerta-erro{
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    background-color: var(--vermelhoDanger);
+    border: 1px solid var(--vermelhoDangerBorder);
+    color: #fff;
+}
+.container-registro .alerta-erro p{
+    margin-right: 20px;
+}
+.container-registro .container-img{
+    background-color: var(--azulEscuro);
+    height: auto;
+    padding: 30px;
+}
+.container-registro .container-img p{
+    color: #fff;
+    text-align: justify;
+}
+.container-registro .container-img img{
+    width: 100%;
+    max-width: 360px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.container-registro .btn-gmail{
+    display: block;
+    margin: 10px auto;
+    background-color: var(--vermelhoClaro);
+    color: #fff;
+    text-align: left;
+}
+.container-registro .btn-gmail:hover{
+    display: block;
+    margin: 10px auto;
+    background-color: var(--vermelhoEscuro);
+    color: #fff;
+}
+.container-registro .btn-facebook{
+    display: block;
+    margin: 10px auto;
+    background-color: var(--azulEscuroFacebook);
+    color: #fff;
+    text-align: left;
+}
+.container-registro .btn-facebook:hover{
+    display: block;
+    margin: 10px auto;
+    background-color: var(--azulClaro);
+    color: #fff;
+}
+.container-registro .btn-gmail .fab{
+    float: left;
+    padding: 0px 20px 0px 10px;
+}
+.container-registro .btn-facebook .fab{
+    float: left;
+    padding: 0px 28px 0px 10px;
+}
+
+/* CONTAINER FORMULÁRIO */
+.container-registro .container-formulario{
+    background-color: #fff;
+    height: auto;
+    text-align: center;  
+}
+.container-registro .container-formulario h3{
+    text-transform: uppercase;
+    margin-top: 10px;  
+}
+.container-registro .container-formulario label{
+    float: left; 
+}
+.container-registro .container-formulario .linha-botoes{
+    padding: 30px 0px; 
+}
+.container-registro .container-formulario .linha-botoes .btn{
+    margin: 5px 5px;
+}
+.container-registro .container-formulario .invalid-feedback{
+    color: var(--vermelhoDanger);
+}
+/* MODAL TERMOS */
+#termosModal{
+    text-align: justify;
+}

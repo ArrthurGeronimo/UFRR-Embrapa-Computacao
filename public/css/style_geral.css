@@ -1,0 +1,84 @@
+:root{
+    --preto: #222d32;
+    --pretoMaisEscuro: #1a2226;
+    --verdeEscuro: #008548;
+    --verdeClaro: #00a65a;
+    --verdeClarinho: #b8e994;
+    --vermelhoEscuro: #b13c2e;
+    --vermelhoClaro: #dd4b39;
+    --azulEscuroANTIGO: #4b94bf;
+    --azulEscuro: #34495e;
+    --azulEscuroFacebook: #4267b2;
+    --azulClaro: #009abf;
+    --cinzaEscuro: #d2d6de;
+    --cinza: #777;
+    --cinzaClaro: #ebebeb;
+}
+.header-tabela{
+    margin-bottom: 30px;
+    display: flow-root;
+}
+.header-tabela h1{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.btn-adicionar{
+    background-color: var(--verdeEscuro);
+    border: none;
+    color: #fff;
+    float: right;
+}
+.btn-adicionar:hover{
+    background-color: var(--verdeClaro);
+    border: none;
+    color: #fff;
+}
+/* PESQUISA */
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none; 
+}
+
+
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px var(--verdeClarinho);
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: var(--verdeClaro);
+    
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+/* /PESQUISA */

@@ -1,0 +1,23 @@
+.container-fazendas h1{
+	text-align: center;
+}
+.container-fazendas .container-fazenda{
+	background-color: #fff;
+	padding: 0px 40px 40px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 8px var(--preto);
+}
+.container-fazendas .container-fazenda .pull-right{
+	padding: 10px 0px 40px;
+}
+.container-fazendas .container-fazenda img{
+	border: 3px solid var(--preto);
+}
+.container-fazendas .container-fazenda .text-center{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 16pt;
+}
+.container-fazendas .container-fazenda .fazenda-outros-botoes{
+	padding: 30px 0px;
+}

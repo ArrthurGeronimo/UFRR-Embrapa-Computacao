@@ -1,0 +1,60 @@
+:root{
+    --preto: #222d32;
+    --verdeEscuro: #008548;
+    --verdeClaro: #00a65a;
+    --vermelhoEscuro: #b13c2e;
+    --vermelhoClaro: #dd4b39;
+    --azulEscuroANTIGO: #4b94bf;
+    --azulEscuro: #34495e;
+    --azulClaro: #009abf;
+    --cinzaEscuro: #d2d6de;
+    --cinza: #777;
+}
+/****************************
+	PÁGINA INICIAL
+*****************************/
+/* MENU DO TOPO */
+.navbar-topo{
+	background-color: var(--preto);
+}
+.navbar-topo .navbar-nav > li > a, .navbar-topo .navbar-nav > li {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-topo .navbar-nav > li > a:hover, .navbar-topo .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: var(--verdeEscuro);
+}
+.navbar-topo .navbar-nav > .active > a, .navbar-topo .navbar-nav > .active > a:hover, .navbar-topo .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+/* LOGO */
+.navbar-brand {
+    padding: 5px 15px 15px;
+}
+.navbar-topo .navbar-brand img{
+	height: 35px;
+}
+/* ÍCONE MOBILE */
+.navbar-topo .navbar-toggle, .navbar-topo .navbar-toggle {
+    background-color: #fff;
+}
+.navbar-topo .navbar-toggle:hover, .navbar-topo .navbar-toggle:focus {
+    background-color: #ddd;
+}
+/* PÁGINA TEMPORÁRIA */
+.pagina_temporaria{
+	background-color: var(--azulEscuro);
+	width: 100%;
+	height:100vh;
+	text-align: center;
+	padding-top: 20%;
+}
+.pagina_temporaria > h1{
+	margin: 0px;
+	padding: 0px;
+	color: var(--cinza);
+	font-size: 5vw;
+}
+

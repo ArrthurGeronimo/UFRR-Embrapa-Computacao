@@ -1,0 +1,31 @@
+/*******************************
+		PÁGINA DE PERFIL
+*******************************/
+.pagina-perfil{
+    padding: 20px;
+    width: 100%;
+}
+.pagina-perfil h2{
+    text-align: center;
+}
+.pagina-perfil .linha-botoes{
+    margin-top: 20px;
+    text-align: center;
+}
+.pagina-perfil .linha-foto-perfil{
+    margin-bottom: 40px;
+}
+.pagina-perfil .linha-foto-perfil img{
+    max-width:150px; 
+    max-height:150px; 
+    float:left; 
+    border-radius:50%; 
+    margin-right:25px;
+    width: 100%;
+}
+.pagina-perfil .linha-foto-perfil .btn{
+    margin-top: 20px;
+}
+.pagina-perfil .linha-botoes{
+    margin-bottom: 40px;
+}

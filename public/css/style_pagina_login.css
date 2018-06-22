@@ -1,0 +1,9 @@
+html{
+	background-color: var(--preto);
+}
+.login-page{
+	background-color: var(--preto);
+}
+.social-auth-links .btn:hover{
+	color: #fff;
+}
